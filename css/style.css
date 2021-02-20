@@ -170,8 +170,13 @@ input, select {
   width: 20%;
   font-size: 14px;
   color: #fff;
-  text-align: center;
-  line-height: 3;
+  position: relative;
+}
+.news-logo p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #mission {
@@ -196,10 +201,12 @@ input, select {
 .text-container p {
   font-size: 14px;
   padding-bottom: 20px;
+  line-height: 1.5;
+  width: 105%;
 }
 .text-container button {
   font-size: 16px;
-  padding: 5px 15px;
+  padding: 5px 25px;
   border: none;
 }
 .mission-image {
